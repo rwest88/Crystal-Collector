@@ -1,0 +1,174 @@
+@font-face {
+    font-family:"Final Fantasy";
+    src:url("../fonts/finalf.eot?") format("eot"),
+    url("../fonts/finalf.woff") format("woff"),
+    url("../fonts/finalf.ttf") format("truetype"),
+    url("../fonts/finalf.svg#New") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    /* background:url("../images/crystals-seamless.jpg"); */
+    background-color: black;
+    color: #c6bdef;
+}
+
+
+h1 {
+    font-family: Final Fantasy;
+    font-size: 88px;
+    color:#2c2354;
+    text-align: center;
+    text-shadow: 2px 2px 8px white;
+}
+
+h2 {
+    font-family: Final Fantasy;
+    font-size: 48px;
+}
+
+#random-number {
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+
+#num-to-match {
+    font-style: italic;
+    color: #67cfc9;
+}
+
+#w-l, #w-l-nums {
+    text-align: right;
+    float: left;
+    padding-left: 30px;
+}
+
+#w-l {
+    padding-left: 96px;
+}
+
+/* #losses, #losses-text {
+    opacity: 1;      will not override body opacity
+} */
+
+#wrapper {
+    background: black;
+    padding: 50px 10px 0px;
+    width: 500px;
+    margin: 0px auto 0;
+}
+
+p {
+    margin: 0px 20px 60px;
+    color: #fa9dbd;
+    border: 1px solid #6abdf3; 
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c {
+    width: 50px;
+    height: 100px;
+}
+
+#buttons {
+    clear: both;
+    text-align: center;
+}
+button {
+    margin-left: 70px;
+    background-color: black;
+}
+button:first-child {
+    margin-left: 0px;
+}
+
+#total {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.die1 {
+    opacity: .95;
+}
+.die2 {
+    opacity: .9;
+}
+.die3 {
+    opacity: .85;
+}
+.die4 {
+    opacity: .8;
+}
+.die5 {
+    opacity: .75;
+}
+.die6 {
+    opacity: .7;
+}
+.die7 {
+    opacity: .65;
+}
+.die8 {
+    opacity: .6;
+}
+.die9 {
+    opacity: .55;
+}
+.die10 {
+    opacity: .5;
+}
+.die11 {
+    opacity: .45;
+}
+.die12 {
+    opacity: .4;
+}
+.die13 {
+    opacity: .35;
+}
+.die14 {
+    opacity: .3;
+}
+.die15 {
+    opacity: .25;
+}
+.die16 {
+    opacity: .2;
+}
+.die17 {
+    opacity: .15;
+}
+.die18 {
+    opacity: .1;
+}
+.die19 {
+    opacity: .05;
+}
+.die20 {
+    opacity: 0;
+}
+.die21 {
+    opacity: 0;
+}
+.die22 {
+    opacity: 0;
+}
+.die23 {
+    opacity: 0;
+}
+.die24 {
+    opacity: 0;
+}

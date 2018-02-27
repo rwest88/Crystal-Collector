@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+
+        <h1>CRYSTAL COLLECTOR</h1>
+
+        <p>You will be given a random number at the start of the game. 
+            <br><br>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+            <br><br>
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            <br><br>
+            The value of each crystal is hidden from you until you click on it.
+            <br><br>
+            Each time the game starts, the game will change the value of each crystal.
+        </p>
+
+        <div id="random-number">
+            <h2>NUMBER TO MATCH</h2>
+            <h2 id="num-to-match">36</h2>
+        </div>
+
+        <div id="w-l">
+            <h2>WINS</h2>
+            <h2 id="losses-text">LOSSES</h2>
+        </div>
+
+        <div id="w-l-nums">
+            <h2 id="wins">0</h2>
+            <h2 id="losses">0</h2>
+        </div>
+
+        <div id="buttons">
+            <button id="c1"><img class="c" id="img1" src="assets/images/c1.png"></button>
+            <button id="c2"><img class="c" id="img2" src="assets/images/c2.png"></button>
+            <button id="c3"><img class="c" id="img3" src="assets/images/c3.png"></button>
+            <button id="c4"><img class="c" id="img4" src="assets/images/c4.png"></button>
+        </div>
+
+        <div id="total">
+            <h2 id="h2-total">RUNNING TOTAL = 0</h2>
+        </div>
+
+    </div>
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
