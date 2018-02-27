@@ -42,15 +42,19 @@ h2 {
 #w-l, #w-l-nums {
     text-align: right;
     float: left;
-    padding-left: 30px;
+    padding-left: 36px;
 }
 
 #w-l {
-    padding-left: 96px;
+    padding-left: 90px;
+}
+
+.double-digit {
+    padding-left: 18px !important;  /*used jQuery to add class, could not figure an alternative solution in CSS layout*/
 }
 
 /* #losses, #losses-text {
-    opacity: 1;      will not override body opacity
+    opacity: 1 !important;  to fade all but these elements...doesn't override body opacity
 } */
 
 #wrapper {

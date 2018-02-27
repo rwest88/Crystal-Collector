@@ -77,6 +77,7 @@ function checkWinLose() {
 function win() {
     fanfare.play();
     wins++;
+    if (wins > 9) { $('#w-l-nums').addClass('double-digit'); }
     $('#wins').text(wins);
     $('#h2-total').addClass('green');
     $('#num-to-match').text("thinking...");
@@ -88,6 +89,7 @@ function win() {
 function lose() {
     requiem.play();
     losses++;
+    if (losses > 9) { $('#w-l-nums').addClass('double-digit'); }
     $('#losses').text(losses);
     $('#h2-total').addClass('red');
     disabled = true;
